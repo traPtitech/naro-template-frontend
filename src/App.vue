@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ClickCounter from './components/ClickCounter.vue'
+import ItemList from './components/ItemList.vue'
 import WelcomeMessage from './components/WelcomeMessage.vue'
 </script>
 
@@ -7,6 +8,7 @@ import WelcomeMessage from './components/WelcomeMessage.vue'
   <main>
     <WelcomeMessage msg="Webエンジニアになろう講習会へようこそ" />
     <ClickCounter />
+    <ItemList />
   </main>
 </template>
 
